@@ -6,4 +6,4 @@
 
 ![FemiCare-logo](femicare-logo.png)
 
-## How to setu
+### How to setup
