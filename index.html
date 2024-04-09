@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FLOW-CYCLE</title>
+    <link rel="icon" href="./assets/img/icon.png" type="image/icon type">
+    <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="./css/articlestyle.css">
+
+ <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+ <link rel="stylesheet" href="css/testimonial.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+
+
+  <body class="body-back">
+    <div id="preloader" class="loader">
+      <img src="images/preloader.gif" alt="" />
+    </div>
+
+    <section class="navigation-bar">
+      <nav class="navbar navbar-expand-sm me-0 p-0" style="background-color: rgb(237, 193, 201);">
+        
+        <div class="container-fluid">
+          <a class="navbar-brand p-0"href="#"><img src="./assets/img/femicare-logo.png" height="70" alt="flow cycle logo"><p class="logoheading">Femicare</p></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <p style="color:#d76591;padding :2px;margin-top: 25px;margin-right: 20px;">Home</p>
+            </li>
+            <li class="nav-item">
+              <p style="color:#d76591;padding :2px;margin-top: 25px;">Contact</p>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="#"><img src="./assets/img/woman.png" height="70" alt=""></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <div class="newedit">
+        <h1> Embrace Your Periods !</h1>
+      </div>
+    </section>
+      <section class="main-section">
+        <div class="container-fluid container">
+          <div class="row">
+            <div class="col-md-7 p-5 m-auto text-center justify-content-center align-items-center">
+              <div class="main-section-text " id="infobox">
+
+                <h2 class="main-head">Last Periods was on</h2>
+                <p>
+                  <input type="button" value="Log The Date" id="btn1">
+                </p>
+                <div id="cont"><input type=date id = "Day">
+                  <!-- Choose a date and enter in input field -->
+                <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button>
+                </div>
+                <!-- <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button>  -->
+                <br><br>
+                <h3 id="result"></h3>
+               
+                
+              </div>
+              <br><br>
+              <div id="result"></div>
+              <br><br>
+            </div>
+            <div class="col-md-5 ">
+              <div class="main-section-image">
+                <img src="./assets/img/bg.png" alt="" class="image "  >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+    <!-- <section>
+      <figure class="m-0">
+        <img class="backgroundimage" style="border-top-left-radius: 80px; border-bottom-left-radius: 80px;" src="images/bg.png" alt="">
+      </figure>
+    </section> -->
+      <!-- <main>
+          <section>
+            <div id="infobox">
+              <h2>Last Periods was on</h2>
+
+              <p>
+                  <input type="button" value="Log The Date" id="btn1">
+              </p>
+
+              <div id="cont"><input type=date id = "Day">-->
+                <!-- Choose a date and enter in input field -->
+              <!-- <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button>
+              </div> 
+                <button id="btn" type="submit" onclick = "Calculator()"> Confirm </button> 
+                <br><br>
+                <h3 id="result"></h3>
+              </div>
+            </div>
+              <br><br>
+              <div id="result"></div>
+              <br><br>
+          </section>
+        </main> -->
+        
+          <section>
+            <footer>
+              <div class="footernav">
+                <a href="#myDIV" onclick="myFunction()"><h2>EXPLORE MORE <img src="./assets/img/arrowdown.png" height="75px" alt=""></h2></a>
+                
+              </div>
+            </footer>
+          </section>
+
+        <section class="explore pt-1" id="myDIV">
+            <div class="container py-5"  >
+                <div class="row" id="expl">
+                  <h2>Explore More</h2>
+                </div>
+                <div class="row p-5 g-4">
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">About</h5>
+                        <p class="card-text">Before Starting !!! Let's Know about the motive and background of this Project...</p>
+                        <a href="./about.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Exercises</h5>
+                        <p class="card-text mb-3">Let's know about some exercises to keep our body fit and fine...</p>
+                        <a href="./exercises.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">FAQ</h5>
+                        <p class="card-text mb-3">Do You have any Query? <br> If yes !!! Do check FAQ's to get them resolved...</p>
+                        <a href="./faq.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Health</h5>
+                        <p class="card-text mb-3">Come let's know about health care for girls & womens during their menstrual cycle..</p>
+                        <a href="./hygiene.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3"> Menstrual Cycle</h5>
+                        <p class="card-text mb-3">Its all about knowing yourself better, and say goodbye to the unexpected dates!</p>
+                        <a href="./menstrualcycle.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Ovulation</h5>
+                        <p class="card-text mb-3"> Stay aware about the internal process and system of body. How it happens, etc...</p>
+                        <a href="./ovulation.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Pregnancy</h5>
+                        <p class="card-text mb-3">Pregnancies might be overwhelming and scary at the same time. Click explore to know everything about pregnancy...</p>
+                        <a href="./pregnancy.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Quiz</h5>
+                        <p class="card-text mb-3">Give yourself sometime and take the quiz to know more about your body...</p>
+                        <a href="./quiz.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Women Health</h5>
+                        <p class="card-text mb-3">Here's to all the women out there!Here's to how you can lead a better and healthy Lifestyle.</p>
+                        <a href="./womenhealth.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Women Health</h5>
+                        <p class="card-text mb-3">Here's to all the women out there!Here's to how you can lead a better and healthy Lifestyle.</p>
+                        <a href="./disorder.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card h-100">
+                      <div class="card-body p-4">
+                        <h5 class="card-title mb-3">Find a Doctor</h5>
+                        <p class="card-text mb-3">Got health issues?Find a doctor and fight these health issues...</p>
+                        <a href="./doc.html" class="btn explore-btn">Explore</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+
+            </div>
+          </section>
+               <section id="section_counter">
+            <div class="container3">
+              <h2 style="text-align: center">Our Stats</h2>
+              <div class="counter-grid">
+                <div class="counter-item">
+                  <h3>Users</h3>
+                  <h1 class="counter" data-target="1014">0</h1>
+                </div>
+                <div class="counter-item">
+                  <h3>People Benefitted</h3>
+                  <h1 class="counter" data-target="703">0</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="tes">
+            <div class="slide-container1 swiper">
+              <h3 style="font-size: 20px;">Testimonial</h3>
+              <h2>-What People Think-</h2>
+              <div class="slide-content">
+                  <div class="card-wrapper swiper-wrapper">
+  
+                      <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"> </span>
+  
+                          <div class="card-image">
+                              <img src="assets/img/face1.png" alt=" " class="card-img">
+                          </div>
+                      </div>
+                      <div class="card-content">
+                          <h2 class="name">Amelia </h2>
+                          <p class="description">The best period tracker app. This app is awesome, you don't get unnecessary contents. It's so easy to use.</p>
+  
+                      </div>
+                      </div>
+  
+                      <div class="card swiper-slide">
+                          <div class="image-content">
+                              <span class="overlay"> </span>
+  
+                              <div class="card-image">
+                                  <img src="assets/img/face2.jpeg" alt=" " class="card-img">
+                              </div>
+                          </div>
+                          <div class="card-content">
+                              <h2 class="name">Abigale</h2>
+                              <p class="description">Best menstrual cycle tracker. and the features are great. Helpful in ehancing the mood , surely can be used anytime.    </p>
+  
+                              
+  
+                          </div>
+                          </div>
+  
+                          <div class="card swiper-slide">
+                              <div class="image-content">
+                                  <span class="overlay"> </span>
+  
+                                  <div class="card-image">
+                                      <img src="assets/img/face3.jpeg" alt=" " class="card-img">
+                                  </div>
+                              </div>
+                              <div class="card-content">
+                                  <h2 class="name">Caroline</h2>
+                                  <p class="description">Very useful app. Predictions are accurate too. Provides good services. Helped me track my periods until I got pregnant. Very good app.</p>
+  
+                                
+  
+                              </div>
+                              </div>
+  
+  
+                              <div class="card swiper-slide">
+                                  <div class="image-content">
+                                      <span class="overlay"> </span>
+  
+                                      <div class="card-image">
+                                          <img src="assets/img/face4.jpeg" alt=" " class="card-img">
+                                      </div>
+                                  </div>
+                                  <div class="card-content">
+                                      <h2 class="name">Pearl</h2>
+                                      <p class="description">The best period tracker app. This app is awesome, you don't get unnecessary contents. It's so easy to use.</p>
+  
+                                    
+  
+                                  </div>
+                                  </div>
+  
+  
+                                  <div class="card swiper-slide">
+                                      <div class="image-content">
+                                          <span class="overlay"> </span>
+  
+                                          <div class="card-image">
+                                              <img src="assets/img/face5.jpeg" alt=" " class="card-img">
+                                          </div>
+                                      </div>
+                                      <div class="card-content">
+                                          <h2 class="name">Eliza</h2>
+                                          <p class="description">Very useful app. Predictions are accurate too. Provides good services . Helped me track my periods until I got pregnant. Very good app.</p>
+  
+                                        
+  
+                                      </div>
+                                      </div>
+  
+  
+                                      <div class="card swiper-slide">
+                                          <div class="image-content">
+                                              <span class="overlay"> </span>
+  
+                                              <div class="card-image">
+                                                  <img src="assets/img/face6.jpeg" alt=" " class="card-img">
+                                              </div>
+                                          </div>
+                                          <div class="card-content">
+                                              <h2 class="name">Margarate</h2>
+                                              <p class="description">Best mood uplifter and the features are great. More like an personalized app . Chatbot is really great and helpful, satisfied with the results!!!</p>
+  
+                                            
+  
+                                          </div>
+                                          </div>
+  
+  
+                                          <div class="card swiper-slide">
+                                              <div class="image-content">
+                                                  <span class="overlay"> </span>
+  
+                                                  <div class="card-image">
+                                                      <img src="assets/img/face1.png" alt=" " class="card-img">
+                                                  </div>
+                                              </div>
+                                              <div class="card-content">
+                                                  <h2 class="name">Olivia</h2>
+                                                  <p class="description">The best period tracker app. This app is awesome, you don't get unnecessary contents. It's so easy to use.</p>
+  
+                                               
+  
+                                              </div>
+                                              </div>
+  
+  
+                                              <div class="card swiper-slide">
+                                                  <div class="image-content">
+                                                      <span class="overlay"> </span>
+  
+                                                      <div class="card-image">
+                                                          <img src="assets/img/face3.jpeg" alt=" " class="card-img">
+                                                      </div>
+                                                  </div>
+                                                  <div class="card-content">
+                                                      <h2 class="name">Helen</h2>
+                                                      <p class="description">Very useful app. Predictions are accurate too. Provides good suggestions and services. Helped me track my periods until I got pregnant. Very good app.</p>
+  
+                                                    
+  
+                                                  </div>
+                                                  </div>
+  
+  
+                          <div class="card swiper-slide">
+                              <div class="image-content">
+                                  <span class="overlay"> </span>
+  
+                                  <div class="card-image">
+                                      <img src="assets/img/face6.jpeg" alt=" " class="card-img">
+                                  </div>
+                              </div>
+                              <div class="card-content">
+                                  <h2 class="name">Emilia K.</h2>
+                                  <p class="description">Best mood uplifter and the features are great. Prediction is accurate and I'm totally satisfied with that. Great sevice</p>
+  
+                               
+  
+                              </div>
+                              </div>
+  
+  
+  
+                  </div>
+              </div>
+  
+              <div class="swiper-button-next swiper-navBtn"></div>
+              <div class="swiper-button-prev swiper-navBtn"></div>
+              <div class="swiper-pagination"></div>
+          </div>
+        </section>
+          <div class="containerf"> 
+          <h1>Frequently Asked Questions</h1> 
+          <div class="question-container"> 
+            <div class="question">Q: What is this website all about?</div> 
+            <div class="answer">A:This  website was made for all the women out there who face problems with their periods and also for educating the women out there so that they are aware about their body more.
+
+
+                  </div> 
+            <hr>
+                  <div class="question">Q:Is this period calculator accurate?</div> 
+            <div class="answer">A: Yes, indeed our calculator is reliable as well as accurate .Our testimonials also say so..</div> 
+            <hr>
+                  <div class="question">Q: Do I need any special software to use it?</div> 
+            <div class="answer">A: No, the only requirement is any web browser.</div> 
+                  <hr>
+                 
+                  <div class="question">Q: Why should I prefer Femicare over any other website?</div> 
+            <div class="answer">A: Flow cycle is a one stop website for predicting the mood swings and uplift it through various services.
+
+            </div> 
+                  <hr>
+                  <div class="question">Q: What if my query is not resolved?</div> 
+            <div class="answer">A: Write us a message or mail us at contact.femicare@gmail.com</div> 
+          </div> 
+        </div> 
+       <section class="news">
+        <form id="newsin">
+        <div>
+           <h1>Subscribe to our Newsletter</h1>
+          </br>
+           <p>Make sure you don't miss any updates regarding our latest articles</p>
+        </div>
+
+     <div id="info" style="background-color:white">
+       <label for="nameuser">Name :</label>
+       <input id="nameuser" type="text" placeholder="Name" name="name" required>
+     </br>
+      
+
+     <label for="nameuser">Email :</label>
+     <input id="nameuser" type="email" placeholder="Email address" name="mail" required>
+   </br> 
+       <label>
+         <input id="checkedbox" type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+       </label>
+     </div>
+
+     <div>
+       <input id="submitnews" type="submit" value="Subscribe">
+     </div>
+   </form>
+  </section>
+
+  <!-- contact us------------------------------------ -->
+  <section class="contact">
+    <div class="container p-5">
+      <div class="row ">
+        <div class="col-lg-6 py-2 my-auto ">
+         
+            <div class="d-flex ">
+             <div><img src="assets/img/femicare-logo.png" height="70" alt="Femicare logo"></div>
+             <div><p class="logoheading mx-auto">Femicare</p></div>
+            </div>
+         
+       
+            <p class="hear pt-4">We'd love to hear from you!</p>
+            <div class="mail"> <h5>  <i class="fa fa-envelope fa-1x ico   "> </i>      Email  </h5>
+                 <p class="sty">femicare@gmail.com</p>
+            </div>
+
+
+         
+            <!-- <div> <h4>  <i class="fa fa-phone fa-1x ico  p-3 "> </i>   Phone </h4>
+                <p class="sty"></p>
+            </div> -->
+        </div>
+        <div class="col-lg-6 py-2 form">
+           
+                  <form  class="row p-2 g-3" action="https://formsubmit.co/hudakupa@mailgolem.com" method="POST">
+               
+                  <div class="col-md-12 pt-3">  <label for="exampleFormControlInput1" class="form-label">E-Mail Address</label>
+            <input type="email" class="form-control" required id="exampleFormControlInput1" placeholder="Enter your Email" name="Email">
+          </div>  
+         
+          <div class="col-md-12 pt-3">
+                    <div>
+                     <label class="form-label">Query</label>
+                      <textarea class="form-control" required id="exampleFormControlTextarea1" rows="4" name="Message" placeholder="Enter your Message"></textarea>
+                    </div>
+                  </div>
+                 
+         
+          <div class="col-12 pt-3">
+                  <button type="submit" class=" btn" data-bs-toggle="tooltip" data-bs-placement="right"> Send</button>
+                  </div>
+                </form>
+
+        </div>
+       </div>
+    </div>
+  </section>
+
+  <!-- contact us end----------------------------------------------------------- -->
+        <div class="footer" id="about">
+          <footer>
+            <div class="waves" >
+              <div class="wave" id="wave1"></div>
+              <div class="wave" id="wave2"></div>
+              <div class="wave" id="wave3"></div>
+              <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+              <li>
+                <a href="https://femicare.tech/" target="_blank"
+                  ><ion-icon name="logo-web-component"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/femicare" target="_blank"
+                  ><ion-icon name="logo-twitter"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/femicare/" target="_blank"
+                  ><ion-icon name="logo-linkedin"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/femicare-jgec" target="_blank"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </li>
+              <li>
+                <a href="mailto:contact.femicare@gmail.com" target="_blank"
+                  ><ion-icon name="mail-outline"></ion-icon
+                ></a>
+              </li>
+            </ul>
+         
+            <p>Copyright © Femicare 2024 All Rights Reserved</p>
+            <p>
+              Created by
+              <a href="https://github.com/nisha331" target="_blank">Team Femicare</a> and
+              <a
+                href="https://github.com/nisha331/flow_cycle1/graphs/contributors" target="_blank"
+                >Team</a
+              >
+            </p>
+          </footer>
+        </div>
+    
+        <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/testimonial.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+
+   <!--------------Preloader Script---------------->
+   <script>
+    var loader = document.querySelector(".loader");
+    window.addEventListener("load", vanish);
+    function vanish() {
+      loader.classList.add("disappear");
+    }
+  </script>
+  <script>
+  const showOnPx = 100;
+  const backToTopButton = document.querySelector(".back-to-top")
+
+ const scrollContainer = () => {
+   return document.documentElement || document.body;
+  };
+
+document.addEventListener("scroll", () => {
+if (scrollContainer().scrollTop > showOnPx) {
+ backToTopButton.classList.remove("hidden")
+} else {
+ backToTopButton.classList.add("hidden")
+}
+})
+const goToTop = () => {
+document.body.scrollIntoView({
+ behavior: "smooth",
+});
+};
+backToTopButton.addEventListener("click", goToTop)
+var loader = document.querySelector(".loader");
+  window.addEventListener("load", vanish);
+  function vanish() {
+  loader.classList.add("disppear");
+
+}
+</script>
+ <script>
+  let section_counter = document.querySelector('#section_counter');
+  let counters = document.querySelectorAll('.counter-item .counter');
+
+  // Scroll Animation
+
+  let CounterObserver = new IntersectionObserver(
+    (entries, observer) => {
+      let [entry] = entries;
+      if (!entry.isIntersecting) return;
+
+      let speed = 200;
+      counters.forEach((counter, index) => {
+        function UpdateCounter() {
+          const targetNumber = +counter.dataset.target;
+          const initialNumber = +counter.innerText;
+          const incPerCount = targetNumber / speed;
+          if (initialNumber < targetNumber) {
+            counter.innerText = Math.ceil(initialNumber + incPerCount);
+            setTimeout(UpdateCounter, 40);
+          }
+        }
+        UpdateCounter();
+
+        if (counter.parentElement.style.animation) {
+          counter.parentElement.style.animation = '';
+        } else {
+          counter.parentElement.style.animation = `slide-up 0.3s ease forwards ${
+            index / counters.length + 0.5
+          }s`;
+        }
+      });
+      observer.unobserve(section_counter);
+    },
+    {
+      root: null,
+      threshold: window.innerWidth > 768 ? 0.4 : 0.3,
+    }
+  );
+
+  CounterObserver.observe(section_counter);
+
+  </script>
+  <script> 
+  const questions = document.querySelectorAll(".question"); 
+
+  questions.forEach((question) => { 
+    question.addEventListener("click", () => { 
+      question.classList.toggle("active"); 
+      const answer = question.nextElementSibling; 
+      if (answer.style.display === "block") { 
+        answer.style.display = "none"; 
+      } else { 
+        answer.style.display = "block"; 
+      } 
+    }); 
+  }); 
+</script> 
+
+</body>
+</html>

@@ -1,0 +1,611 @@
+.body-back {
+  background-color: #EFB7C7;
+  font-family: 'Raleway', sans-serif;
+
+}
+.footer{
+  min-height: 0vh;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+}
+
+::-webkit-scrollbar-track{
+  background:#E82771;
+  border-radius:100vw;
+}
+::-webkit-scrollbar-thumb{
+  background:#fcadcb;
+  border-radius:100vw;
+}
+
+.loader {
+  position: fixed;
+  z-index: 999999999 !important;
+  background: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+
+  
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.disappear {
+  animation: vanish 4s forwards;
+}
+@keyframes vanish {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+/*---------------------------------------*/
+  .square {
+    background-color: bisque;
+    margin-top:150px;
+
+  
+    height:300px;
+    width:300px;
+    border-style: double;
+  }
+  
+  .square:after {
+    content: "";
+    display: block;
+    margin-top:100px;
+    padding-top:100%;
+    
+  }
+  
+  .experi{
+    background-color: rgb(199, 93, 109);
+    margin-top:25px;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  .newedit{
+    font-family: 'Raleway', sans-serif;
+    background-color: aliceblue;
+    height: 30vh;
+    text-align: center;
+    color: #E82771;
+    padding-top: 10vh;
+  }
+
+ .logoheading{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0.6rem;
+    padding-left: 0.8rem;
+    margin-bottom: 0;
+    float: right;
+    font-size: 35px;
+    font-weight: 700;
+    color: #d76591;
+  }
+
+  /* .backgroundimage{
+    float: right;
+    height: 810px;
+  } */
+/* 
+  #infobox{
+    margin-top: 300px;
+    text-align: center;
+
+    
+
+  }
+  #infobox>h2{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 800;
+    font-size: 50px;
+  } */
+
+  .main-head{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+
+  }
+  .image{
+    height:85vh;
+    width:38vw;
+  }
+  #btn {
+      background-color: white;
+      border: none;
+
+
+  
+      color: #E82771;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 25px;
+  }
+  #result{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    position: relative;
+    /* left: 30px;
+    top: -100px; */
+
+
+  }
+
+
+  
+  
+  #btn1 {
+    background-color: white;
+    border: none;
+    color: #E82771;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.15s , color 0.15s;
+}
+
+#btn1:hover{
+  background-color: #E82771;
+  color: white;
+}
+
+  #btn:hover{
+    background-color: #E82771;
+    color: white;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .main>h2{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h3{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h4{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h5{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h6{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h7{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h8{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h9{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+  }
+
+  .main>h10{
+    font-family: 'PT Serif Caption', serif;
+    color: #E82771;
+    font-weight: 700;
+}
+
+  .footernav{
+    position: absolute;
+    bottom: 0;
+
+
+  
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: block;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    cursor:pointer;
+  }
+  .footernav a{
+    text-decoration: none;
+    color: #E82771;
+  }
+
+  .footernav>h2{
+    color: #EB1365;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 700;
+  }
+
+  /*-------------------*/
+
+ .explore{
+  background-color: white;
+  
+ }
+ .explore h2{
+  display:none;
+  color:#EB1365;
+  text-align:center;
+ }
+ .explore .card{
+  background:#ffd7e9 ;
+  border:none;
+  text-align:center; 
+  
+ }
+ .explore .card-title{
+  color: #EB1365;
+  font-weight:bold;
+  font-size: 30px;
+  font-family: 'PT Serif Caption', serif;
+  
+ }
+ .explore .card p{
+  font-weight: 500;
+  color:#EB1365;
+  font-size: 17px;
+  font-family: 'PT Serif Caption', serif;
+ }
+ .explore .btn{
+  background:white;
+  color:#EB1365;
+  transition: background-color 0.15s , color 0.15s;
+ }
+ .explore .explore-btn:hover{
+  background:#E82771;
+  color:white;
+  cursor:pointer;
+ }
+ #about{
+  display: none;
+ }
+
+/*--------------------------*/
+/* subscribe button */
+
+#submitnews:hover{
+  background-color: white;
+}
+#submitnews:active{
+  color: rgb(133, 133, 133);
+}
+/* ---------------------------- */
+.hear{
+  color:#EB1365;
+  font-family: 'PT Serif Caption', Times, serif;
+  font-weight:bold;
+  font-size:1.4rem;
+ }
+ .mail{
+  color:#EB1365;
+  font-family: 'PT Serif Caption', serif;
+  font-weight:500;
+  font-size: 1.2rem;
+
+
+ }
+ .mail p{
+  font-size:1.2rem;
+ }
+ .contact .form-label{
+  color:black;
+  font-family: 'PT Serif Caption', serif;
+  font-weight:bold;
+  font-size:1.2rem;
+ }
+ .contact .btn{
+  background:white;
+  color:black;
+ }
+ .contact .btn:hover{
+  /* background:white;
+  color:#EB1365;
+  cursor:pointer; */
+  background:#E82771;
+  color:white;
+  cursor:pointer;
+ }
+ .contact input[type=email]:focus{
+  outline:none;
+  box-shadow:none;
+  border:1px solid #EB1365;
+ }
+ .contact textarea:focus{
+  outline:none;
+  box-shadow:none;
+  border:1px solid #EB1365;
+ }
+
+
+/*--------------------------*/
+
+
+/*------------------------*/
+  #edit-btn{
+    border-radius: 50px;
+    font-size: 20px;
+    color:#E82771;
+    border: none;
+    padding: 15px;
+    font-weight: 600;}
+
+  #cont{
+    display: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .image{
+        display:none;
+    }
+    .footernav{
+      display:none;
+    }
+    .explore h2{
+      display:block;
+    }
+    #myDIV{
+      display:block;
+    }
+    .footer{
+      justify-content:center;
+      align-items:center;
+    }
+    .back-to-top{
+      bottom: 2rem;
+    }
+  }
+  
+  @media(min-width:992px){
+    .image{
+      display:block;
+    }
+  }
+
+ /*------------------------*/
+ #news{
+  background-color: white;
+  height: 600px;
+  display: none;
+ }
+ #newsin {
+   width: 55%; 
+  text-align: center;
+  padding-top: 100px;
+  border: 2px solid black;
+  /* padding: 50px; */
+  padding-bottom: 10px;
+  
+ 
+  margin-left: 350px;
+  border-radius: 15px;
+  background-color: #ffd7e9;
+  box-shadow: 1px 2px 1.2px pink;
+}
+
+#info {
+  text-align: center;
+  padding: 10px;
+  padding-left: 0px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+#nameuser{
+  width: 45%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#checkedbox {
+  padding: 50px;
+  margin: 10px;
+  position: relative;
+  left: 0;
+}
+
+#submitnews {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#section_counter{
+  margin-top: 300px;
+  background-color: white;
+}
+.container3 h2{
+  font-size: 7vh;
+}
+.container3 {
+ 
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  padding: 0 1rem;
+  height: 80vh;
+margin-top: 10vh;
+ 
+}
+
+
+.counter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  margin-top: 15vh;
+}
+.counter-item {
+  background: rgb(212, 101, 120);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+  transform: translateY(6rem);
+  height: 30vh;
+  
+}
+
+
+.counter-img {
+  width: 1rem;
+  height: 1rem;
+  object-fit: contain;
+  filter: drop-shadow(0 0 0.2rem #251c5a);
+}
+.counter-img:nth-child(1) {
+  width: 9rem;
+  height: auto;
+}
+.counter-item:hover {
+  left: -25px;
+  padding: 60px 40px;
+  cursor: pointer;
+  
+  transition: all 0.5s ease-in-out;
+}
+.counter-item .counter {
+  font-size: 4.5rem;
+  color: transparent;
+  color: transparent;
+  letter-spacing: 0.5rem;
+  -webkit-text-stroke-width: 0.15rem;
+  -moz-text-stroke-width: 0.15rem;
+  -ms-text-stroke-width: 0.15rem;
+  -o-text-stroke-width: 0.15rem;
+  -webkit-text-stroke-color: #fff;
+  -moz-text-stroke-color:#fff;
+  -ms-text-stroke-color: #fff;
+  -o-text-stroke-color:#fff;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(6rem);
+  }
+  100% {
+    transform: translateY(0rem);
+  }
+}
+.containerf { 
+  font-family: Arial, sans-serif; 
+  max-width: 1000px; 
+  margin: 0 auto; 
+  padding: 20px; 
+margin-top: 100px;
+} 
+
+h1 { 
+  text-align: center; 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+} 
+
+.question { 
+  font-weight: bold; 
+  font-size: 20px;
+  margin-top: 40px; 
+  margin-bottom: 30px; 
+  cursor: pointer; 
+
+} 
+.question:after {
+content: '\02795';
+/* Unicode character for "plus" sign (+) */
+font-size: 20px;
+color: #777;
+float: right;
+margin-left: 5px;
+margin-bottom: 20px;
+}
+hr{
+margin-top: 50px;
+background-color: white;
+}
+
+.answer { 
+  margin-bottom: 20px; 
+  display: none; 
+  font-size: 20px;
+} 
+
+.answer p { 
+  margin: 0; 
+  line-height: 1.5; 
+} 
+
+.answer.active { 
+  display: block; 
+} 
