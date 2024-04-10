@@ -1,0 +1,88 @@
+body{
+    background: url("backgrounddropdown.png");
+
+}
+.heading{
+    text-align:center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:60px;
+    margin-top:150px;
+}
+.information{
+    border-color:black;
+    border-style:solid;
+    display:flex;
+    margin:90px;
+    height:auto;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background:#E82771;
+    border-radius:100vw;
+  }
+  ::-webkit-scrollbar-thumb{
+    background:#fcadcb;
+    border-radius:100vw;
+  }
+
+.info{
+    margin:20px;
+    font-size:20px;
+}
+
+.faq{
+    margin-top: 2rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.logoheading{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 0.6rem;
+    padding-left: 0.8rem;
+    margin-bottom: 0;
+    float: right;
+    font-size: 35px;
+    font-weight: 700;
+    color: #EB1365;
+  }
+
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+.answer{
+    max-height: 0;
+    padding-top: 1.6rem;
+    line-height: 1.6;
+    overflow: hidden;
+   transition: max-height 0.5s ease-out;
+}
+
+
+.active .answer{
+    max-height: 500px;
+    overflow: hidden;
+    transition: max-height 1s ease-in;
+}
+
+#periods{
+   font-size: 1.5em;
+   font-weight: bold;
+}
+
+
+#pregnancy{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 88px;
+ }
